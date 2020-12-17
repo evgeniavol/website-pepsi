@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Classic</title>
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <!-- section -->
+    <section class="section">
+        <!-- header -->
+        <header>
+            <a href="#"><img src="img/logo.png" alt="logo" class="logo wow bounceInDown  data-wow-delay='0.4s"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <!-- /.toggleMenu -->
+            <!-- navigation -->
+            <ul class="navigation">
+                <li><a href="#!" class="navigation__link">Home</a></li>
+                <li><a href="#!" class="navigation__link">Products</a></li>
+                <li><a href="#!" class="navigation__link">What's New</a></li>
+                <li><a href="#!" class="navigation__link">Newsletter</a></li>
+                <li><a href="#!" class="navigation__link">Contact</a></li>
+            </ul>
+            <!-- ./navigation -->
+        </header>
+        <!-- /.header -->
+
+        <!-- content -->
+        <div class="content">
+            <div class="about-product__descr   wow fadeInLeft  data-wow-delay='0.5s">
+                <h2>That's What<br><span>I like</span></h2>
+                <p>Pepsi is a carbonated soft drink manufactured by PepsiCo. Originally created and developed in 1893 by
+                    Caleb Bradham and introduced as Brad's Drink, it was renamed as Pepsi-Cola in 1898, and then
+                    shortened to Pepsi in 1961.</p>
+                <a href="#!">View All Products</a>
+            </div>
+            <!-- /.about-product -->
+
+            <!-- about-product__img -->
+            <div class="about-product__img wow fadeInRight data-wow-delay='0.6s">
+                <img src="img/pepsi001.png" class="pepsi" alt="pepsi">
+            </div>
+            <!-- /.about-product__img -->
+        </div>
+        <!-- ./content -->
+        <ul class="about-product__img--sm">
+            <li><img src="img/pepsi001.png" onclick="imgSlider('img/pepsi001.png'); changeBgColor('#0062be')"
+                    alt="pepsi-blue"></li>
+            <li><img src="img/pepsi002.png" onclick="imgSlider('img/pepsi002.png'); changeBgColor('#e60c2c')"
+                    alt="pepsi-grey"></li>
+            <li><img src="img/pepsi003.png" onclick="imgSlider('img/pepsi003.png'); changeBgColor('#1e1e1e')"
+                    alt="pepsi-black"></li>
+        </ul>
+        <!-- /.about-product__img--sm -->
+        <!-- social -->
+        <ul class="social">
+            <li><a href="#!"><img src="img/facebook.png" alt="facebook"></a></li>
+            <li><a href="#!"><img src="img/twitter.png" alt="twitter"></a></li>
+            <li><a href="#!"><img src="img/instagram.png" alt="instagram"></a></li>
+        </ul>
+        <!-- /.social -->
+    </section>
+    <!-- /.section -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
